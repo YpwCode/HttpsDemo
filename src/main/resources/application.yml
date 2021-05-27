@@ -1,0 +1,10 @@
+server:
+  ssl:
+    key-store: classpath:static/ypw.jks
+    keyAlias: ypw
+    # key-store-password: xxx
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
